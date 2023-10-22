@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/deploy-github/static/css/main.c4c382fb.css",
+    "main.js": "/deploy-github/static/js/main.e8375438.js",
+    "static/js/787.d1d4a2c2.chunk.js": "/deploy-github/static/js/787.d1d4a2c2.chunk.js",
+    "static/media/DSCF8872.jpg": "/deploy-github/static/media/DSCF8872.6a7c290a13af7b906f3e.jpg",
+    "static/media/DSCF8880 (1).jpg": "/deploy-github/static/media/DSCF8880 (1).cb558eef3a04ba37ef6f.jpg",
+    "static/media/z4789498449283_jpg": "/deploy-github/static/media/z4789498449283_c248779711b8f486c5e2bb22deb1c1bd.f62c84f0568891ed311c.jpg",
+    "static/media/z4789498840758_jpg": "/deploy-github/static/media/z4789498840758_d4f6411cd73176cf0d3b03c1077d8212.c6f9b53ec6bde2d01468.jpg",
+    "static/media/tham2.jpg": "/deploy-github/static/media/tham2.c7ae61227bec213efeae.jpg",
+    "static/media/JagerDecor.jpg": "/deploy-github/static/media/JagerDecor.992dbb140b78d2bf255c.jpg",
+    "static/media/z4789498737744_jpg": "/deploy-github/static/media/z4789498737744_9960237149d403ae37ef7693101a9126.30ab4797a3195feb34ec.jpg",
+    "static/media/tham1.jpg": "/deploy-github/static/media/tham1.342941297eab293193c2.jpg",
+    "static/media/JagerHome.jpg": "/deploy-github/static/media/JagerHome.40eb097be2e68964762a.jpg",
+    "static/media/lamviec.jpg": "/deploy-github/static/media/lamviec.81d8eb81c2b109aeb2bf.jpg",
+    "static/media/light.jpg": "/deploy-github/static/media/light.3ec264e2642ad0776130.jpg",
+    "static/media/tham.jpg": "/deploy-github/static/media/tham.9e8aa06ac9ba5136719e.jpg",
+    "static/media/Tranh.jpg": "/deploy-github/static/media/Tranh.d9ec6b92337309930026.jpg",
+    "static/media/bep-cut.jpg": "/deploy-github/static/media/bep-cut.fe1987ede49716be44cd.jpg",
+    "static/media/noithat-cut.jpg": "/deploy-github/static/media/noithat-cut.d45af720d2e227e9d9d7.jpg",
+    "static/media/ChenDia.jpg": "/deploy-github/static/media/ChenDia.3e1e57cc8699b0cf60ea.jpg",
+    "static/media/z4789498162523_jpg": "/deploy-github/static/media/z4789498162523_88b0bbddc75825da36c80c8d64d5bd8d.0dd6b4fa02264acfb8c2.jpg",
+    "static/media/bootstrap-icons.woff?": "/deploy-github/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/Tranh1.jpg": "/deploy-github/static/media/Tranh1.dd9709abf3047d51a78a.jpg",
+    "static/media/bootstrap-icons.woff2?": "/deploy-github/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/icon_img.jpg": "/deploy-github/static/media/icon_img.6d96b3d5765cdb7fcfc2.jpg",
+    "static/media/denchum.jpg": "/deploy-github/static/media/denchum.1af037a6fe92bcfb319b.jpg",
+    "index.html": "/deploy-github/index.html",
+    "main.c4c382fb.css.map": "/deploy-github/static/css/main.c4c382fb.css.map",
+    "main.e8375438.js.map": "/deploy-github/static/js/main.e8375438.js.map",
+    "787.d1d4a2c2.chunk.js.map": "/deploy-github/static/js/787.d1d4a2c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4c382fb.css",
+    "static/js/main.e8375438.js"
+  ]
+}
