@@ -14,27 +14,15 @@ import Cart from './page/cart/Cart';
 import { ShopContextProvider } from './page/context/shop-context';
 import Card_1 from './page/Card_1';
 import { Layout } from './Layout';
+
+import Footer from './component/Footer'
+import Header from './component/Header'
 function App() {
   return (
 <div>
- <Router>
-  <Routes>
-    <Route element={<Layout/>}> 
-    <Route path="/" element={<Homepage />} />
-    <Route path="/homepage" element={<Homepage />} />
-    <Route path="/introduction" element={<Introduction />} />
-    <Route path="/instruct" element={<Instruct/>} />
-    <Route path='/product' element={<Product />} />
-    <Route path='/contact' element={<Contact />} />
-    <Route path='/instruct/active-instruct' element={<ActiveInstruct />} />
-    <Route path='/policy' element={<Policy/>} />
-    <Route path='/shop' element={<Shop/>} />
-    <Route path='/producttest' element={<ProductTest/>} />
-    <Route path='/cart' element={<Cart/>} />
-    <Route path='/shop/:id' element={<Card_1/>} />
-    </Route>
-  </Routes>
-</Router> 
+<Header/>
+      <Homepage/>
+        <Footer/>
 
 </div>
   );

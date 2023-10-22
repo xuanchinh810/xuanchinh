@@ -2,7 +2,7 @@
   "name": "web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/xuanchinh810",
+  "homepage": "https://xuanchinh810.github.io/xuanchinh/",
   "dependencies": {
     "@react-spring/web": "^9.7.3",
     "@testing-library/jest-dom": "^5.17.0",
