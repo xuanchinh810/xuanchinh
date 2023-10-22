@@ -1,6 +1,6 @@
 body{
   background-color: #FFFFFF;
-  font-family: 'Public Sans';
+  font-family: 'Montserrat';
 }
 p{
   font-weight: 400;
@@ -23,6 +23,27 @@ p{
 .row{
   --bs-gutter-x:0;
 }
+hr{
+  color: #fff;
+  opacity: 0.3;
+  margin: 0px;
+}
+.vr{
+
+  height: 60%;
+}
+.nav-link{
+  color: #fff ;
+  opacity: 0.7;
+  font-size: 15px;
+  font-weight: 600;
+}
+.navbar-nav{
+  --bs-nav-link-hover-color:#fff !important;
+}
+
+
+
 .img-container-homepage{
   height: 360px;
   width: 360px;
@@ -30,13 +51,16 @@ p{
 }
 .img-hover{
 	transform: scale(1);
-	transition: .3s ease-in-out;
-
+	transition: .5s ease-in-out;
 }
 .img-hover:hover{
-  -webkit-transform: scale(1.3);
-	transform: scale(1.3);
+  -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
 
+.building-header{
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .circle{
@@ -158,8 +182,8 @@ i{
   display: flex ;
 }
 .bi-header{
-  margin-right: 15px;
-  font-size: 22px;
+  font-size:16px;
+  opacity: 0.5;
 }
 .grid-container{
   display: grid;

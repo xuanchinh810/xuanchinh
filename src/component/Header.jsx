@@ -7,89 +7,123 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
 
-
-      <div className=" container-fluid header row m-0 "
+// top
+      <div className=" container-fluid header row  "
       style={{
-        margin:0,
         justifyContent:'center',
         display:'flex',
-        backgroundColor:'#fff',
+        backgroundColor:'#000',
       }}>
-        <div className="row"
+        <div className="row flex "
         style={{
-          backgroundColor:'#000',
+          color:'#fff',
+          marginLeft:'20%',
+          fontSize:'12px',
+          margin:0,
+          fontWeight:600,
         }}>
-
-          <a href='/product' className='d-flex justify-content-center icon-link icon-link-hover'
-          style={{
-            padding: 5,
-            opacity:'0.6',
-
-            color:'#fff',
-            fontWeight:400,
-          }}>HOT !!! Khuyến mãi 15% toàn bộ sản phẩm <i className='bi bi-arrow-right-short align-self-center'
-          style={{
-            fontSize:22,
-          }}></i></a>
-        </div>
-        <nav className="row navbar navbar-light navbar-lg border-bottom"
-          style={{
-            backgroundColor: '#fff',
+         <div className='d-flex col-6'
+         style={{
+          marginLeft:'10%'
+         }}
+          >
+          <p
+           style={{
+            fontSize:'12px',
             padding:10,
+            paddingLeft:0,
             margin:0,
-            justifyContent:'center',
+            fontWeight:600,
           }}
         >
-          <a className="col-md-auto navbar-brand  p-2 " href="#"
+            XUÂN CHÍNH INTERIOR DESIGN
+          </p>
+
+          <div className='vr align-self-center '></div>
+          <p
+           style={{
+            padding:10,
+            margin:0,
+            fontWeight:600,
+            color:'fff',
+            opacity:0.5
+          }}>CỬA HÀNG</p>
+         </div>
+         <div className='col-2'>
+          <p
+           style={{
+          
+            padding:10,
+            margin:0,
+            fontWeight:600,
+            color:'fff',
+            opacity:0.5
+          }}
+          >HOTLINE: 012345678</p>
+         </div>
+        </div>
+
+        {/* line */}
+        <div
+        style={{
+          backgroundColor:'#000'
+        }}>
+        <hr className='container' /></div>
+
+        {/* bot */}
+        <nav className="row"
+          style={{ 
+           
+            backgroundColor: '#000',
+            color:'#fff',
+            padding:'0',
+            margin:0,
+       
+          }}
+        >
+          <nav className="navbar col-6 navbar-expand-lg navbar-light"
             style={{
-              display: "flex",
-            }}>
-            <img
-              src={icon_img}
-              width={50}
-              height={50}
-              className="d-inline-block align-top rounded"
-              alt=""
-              style={{
-                marginRight: 1,
-              }}
-            />
-            <h2 style={{
-              marginLeft: 5,
-              paddingTop: "INHERIT",
-              fontSize: 30,
-              fontFamily:'Public Sans',
-              fontWeight:600,
-            }}>HT CARD</h2>
-          </a>
-          <nav className="navbar col-5 navbar-expand-lg navbar-light"
-            style={{
-              backgroundColor: '#ffffff',
-              fontFamily:'Public Sans',
+              backgroundColor: '#000',
+              marginLeft:'10%',
               fontWeight:400,
               fontSize:20,
-            }}
-          >
-            <div className="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul className="navbar-nav">
-                <li className="nav-item  active">
-                  <Link to="/homepage" className="nav-link ">
-                    Trang chủ
+              color:'#fff',
+            }}>
+            <a href="/" className='' style={{
+              display: "flex",
+              color:'#fff',
+            }}>
+              <h2 style={{
+              margin:0,
+              marginRight:20,
+              paddingTop: "INHERIT",
+              fontSize: 20,
+              fontWeight:300,
+              letterSpacing:'3px'
+            }}>XUÂN CHÍNH</h2>
+            </a>
+            <div className="collapse navbar-collapse" id="navbarNavDropdown"
+            >
+              <ul className="navbar-nav"
+              >
+                <li className="nav-item  active ">
+                  <Link to="/" className="nav-link ">
+                    GIỚI THIỆU
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/product" className="nav-link">
-                    Sản phẩm
+                  <Link to="/" className="nav-link">
+                    CÔNG TRÌNH
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/instruct">
-                    Hướng dẫn
+                  <a className="nav-link" href="/">
+                    CỬA HÀNG
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/contact">
-                    Liên hệ
+                  <a className="nav-link" href="/">
+                    LIÊN HỆ
                   </a>
                 </li>
                 
@@ -100,17 +134,9 @@ export default function Header() {
           style={{
            justifyContent:'flex-end',
           }}>
-          <i class="bi bi-header bi-search ml-5"
+          <i class="bi bi-header bi-search "
                 /> 
-          <a href="https://995ht.vn/login">
-          <i class="bi bi-header bi-person"
-          style={{
-            fontSize:25,
-          }}></i>
-          </a>
-          <a href="/cart">
-          <i class="bi bi-header bi-bag"></i> 
-          </a>
+        
 </div>
         </nav>
       
